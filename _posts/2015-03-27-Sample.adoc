@@ -1,5 +1,7 @@
 = サンプル！
 :hp-alt-title: Sample
+:stem: latexmath
+
 テスト
 
 image::http://placehold.it/350x150[代替テキスト]
@@ -41,3 +43,19 @@ ____
 * level 1
 
 TIP: Tip.
+
+
+latexmath::[$C = \alpha + \beta Y^{\gamma} + \epsilon$]
+
+.Delimited block
+[latexmath]
+++++
+\[C = \alpha + \beta Y^{\gamma} + \epsilon\]
+++++
+
+[asciimath]
+++++
+sqrt(4) = 2
+++++
+
+stem:[sqrt(4) = 2]
