@@ -1,4 +1,5 @@
 = サイトトップ
+:hp-alt-title: Sample
 テスト
 
 image::http://placehold.it/350x150[代替テキスト]
