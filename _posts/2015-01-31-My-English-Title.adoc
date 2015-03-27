@@ -1,0 +1,10 @@
+= タイトル
+:published_at: 2015-01-31
+:hp-tags: tag1,tag2,tag3
+:hp-alt-title: My English Title
+
+== セクション
+サンプル
+テスト
+
+video::KCylB780zSM[youtube]
