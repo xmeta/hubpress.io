@@ -1,4 +1,4 @@
-= サイトトップ
+= サンプル！
 :hp-alt-title: Sample
 テスト
 
