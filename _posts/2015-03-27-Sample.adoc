@@ -12,6 +12,9 @@ image:http://chart.apis.google.com/chart?cht=tx&chl=sqrt%284%29%20%3D%202["ä»£æ›
 
 image:http://formula.s21g.com/?sqrt%284%29%20%3D%202.png["sqrt(4) = 2",height=32]
 
+[[img-sunset]]
+image::http://farm6.staticflickr.com/5293/5448336655_36681dd703_m_d.jpg[caption="Figure 1: ", title="A mountain sunset", alt="Sunset", width="300", height="200", link="http://www.flickr.com/photos/javh/5448336655"]
+
 [source,ruby]
 puts "Hello, World!"
 
