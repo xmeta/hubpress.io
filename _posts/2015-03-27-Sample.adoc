@@ -1,7 +1,10 @@
 = サンプル！
 :hp-alt-title: Sample
 :stem: latexmath
-:icons: font
+
+++++
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+++++
 
 == 画像
 
