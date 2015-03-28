@@ -15,6 +15,7 @@ ____
 軽量マークアップ言語（けいりょうマークアップげんご、英語: lightweight markup language）は、人間がシンプルなテキストエディタを使っての入力が容易になるように設計された、簡潔な文法をもつマークアップ言語である。
 ____
 
+
 .テーブルタイトル
 [options="header"]
 |=======================
@@ -53,9 +54,14 @@ latexmath::[$C = \alpha + \beta Y^{\gamma} + \epsilon$]
 \[C = \alpha + \beta Y^{\gamma} + \epsilon\]
 ++++
 
+image::http://chart.apis.google.com/chart?cht=tx&chl=x=%5cfrac%7b-b%5cpm%5csqrt%7bb%5e2-4ac%7d%7d%7b2a%7d[代替テキスト]
+
+image::http://chart.apis.google.com/chart?cht=tx&chl=sqrt%284%29%20%3D%202[代替テキスト]
+
 [asciimath]
 ++++
 sqrt(4) = 2
 ++++
+
 
 stem:[sqrt(4) = 2]
