@@ -4,8 +4,13 @@
 
 テスト
 
-image::http://placehold.it/350x150[代替テキスト]
+image::http://placehold.it/350x100[代替テキスト]
 
+image::http://chart.apis.google.com/chart?cht=tx&chl=x=%5cfrac%7b-b%5cpm%5csqrt%7bb%5e2-4ac%7d%7d%7b2a%7d[代替テキスト]
+
+image:http://chart.apis.google.com/chart?cht=tx&chl=sqrt%284%29%20%3D%202[代替テキスト]
+
+image:http://formula.s21g.com/?sqrt%284%29%20%3D%202.png[sqrt(4) = 2]
 
 [source,ruby]
 puts "Hello, World!"
@@ -54,9 +59,6 @@ latexmath::[$C = \alpha + \beta Y^{\gamma} + \epsilon$]
 \[C = \alpha + \beta Y^{\gamma} + \epsilon\]
 ++++
 
-image::http://chart.apis.google.com/chart?cht=tx&chl=x=%5cfrac%7b-b%5cpm%5csqrt%7bb%5e2-4ac%7d%7d%7b2a%7d[代替テキスト]
-
-image::http://chart.apis.google.com/chart?cht=tx&chl=sqrt%284%29%20%3D%202[代替テキスト]
 
 [asciimath]
 ++++
