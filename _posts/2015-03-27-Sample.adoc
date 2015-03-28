@@ -2,6 +2,11 @@
 :hp-alt-title: Sample
 :stem: latexmath
 
+++++
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.2.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.2.0/katex.min.js"></script>
+++++
+
 == 画像
 
 image::http://placehold.it/350x100["代替テキスト", height=32]
@@ -10,12 +15,15 @@ image::http://chart.apis.google.com/chart?cht=tx&chl=x=%5cfrac%7b-b%5cpm%5csqrt%
 
 image:http://chart.apis.google.com/chart?cht=tx&chl=sqrt%284%29%20%3D%202["代替テキスト"]
 
-image:http://formula.s21g.com/?sqrt%284%29%20%3D%202.png["sqrt(4) = 2",height=32]
+image::http://formula.s21g.com/?sqrt%284%29%20%3D%202.png#small["sqrt(4) = 2",height=32]
+
 
 [[img-sunset]]
 image::http://farm6.staticflickr.com/5293/5448336655_36681dd703_m_d.jpg[caption="Figure 1: ", title="A mountain sunset", alt="Sunset", width="300", height="200", link="http://www.flickr.com/photos/javh/5448336655"]
 
+
 == ソースコード
+
 
 [source,ruby]
 puts "Hello, World!"
@@ -84,5 +92,9 @@ latexmath::[$C = \alpha + \beta Y^{\gamma} + \epsilon$]
 sqrt(4) = 2
 ++++
 
+[KaTeX]
+++++
+<div class="example tex" data-expr="\displaystyle \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)"></div>
+++++
 
 stem:[sqrt(4) = 2]
