@@ -2,22 +2,6 @@
 :hp-alt-title: Sample
 :stem: latexmath
 
-++++
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.2.0/katex.min.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.2.0/katex.min.js"></script>
-<script>
-  window.onload=function(){
-    var elms = document.getElementsByTagName('katex')
-    for (var i=0; i<elms.length; i++){
-      var elm = elms[i];
-      var tex = elm.innerHTML;
-      katex.render(tex,elm);
-      elm.title = tex;
-    }
-  };
-</script>
-++++
-
 == 画像
 
 image::http://placehold.it/350x100["代替テキスト", height=32]
@@ -97,10 +81,29 @@ latexmath::[$C = \alpha + \beta Y^{\gamma} + \epsilon$]
 \[C = \alpha + \beta Y^{\gamma} + \epsilon\]
 ++++
 
-
 [asciimath]
 ++++
 sqrt(4) = 2
+++++
+
+stem:[sqrt(4) = 2]
+
+=== KaTeX
+
+++++
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.2.0/katex.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.2.0/katex.min.js"></script>
+<script>
+  window.onload=function(){
+    var elms = document.getElementsByTagName('katex')
+    for (var i=0; i<elms.length; i++){
+      var elm = elms[i];
+      var tex = elm.innerHTML;
+      katex.render(tex,elm);
+      elm.title = tex;
+    }
+  };
+</script>
 ++++
 
 [KaTeX]
@@ -113,5 +116,3 @@ sqrt(4) = 2
 ++++
 <katex>\displaystyle \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)</katex>
 ++++
-
-stem:[sqrt(4) = 2]
