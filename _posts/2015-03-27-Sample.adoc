@@ -1,6 +1,7 @@
 = サンプル！
 :hp-alt-title: Sample
 :stem: latexmath
+:icons: font
 
 == 画像
 
