@@ -66,6 +66,8 @@ ____
 
 TIP: Tip.
 
+NOTE: Note.
+
 == Math
 
 latexmath::[$C = \alpha + \beta Y^{\gamma} + \epsilon$]
